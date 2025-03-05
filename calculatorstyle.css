@@ -8,11 +8,13 @@ body {
     margin: 0;
     background-color: wheat;
 }
-header {
-    text-align: left;
-    margin-bottom: 20px;
-    padding: 20px;  
+.topic {
+    position: absolute;
+    top: 50%;
+    margin-top: -350px;
+    padding: 05px;  
 }
+
 .calculator {
     width: 320px;
     padding: 20px;
@@ -49,6 +51,10 @@ header {
 }
 .buttons button.operator {
     background: #f39c12;
+    color: white;
+}
+.buttons button.equal {
+    background: #27ae60;
     color: white;
 }
 .buttons button.equal {
